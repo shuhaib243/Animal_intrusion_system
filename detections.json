@@ -1,0 +1,4203 @@
+[
+    {
+        "id": "760e1f43",
+        "timestamp": "2026-06-30 23:08:30",
+        "filename": "pred_wolf.jpg",
+        "original_url": "/uploads/pred_wolf_760e1f43.jpg",
+        "result_url": "/uploads/det_pred_wolf_760e1f43.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.6810905933380127,
+                "box": [
+                    126,
+                    120,
+                    738,
+                    537
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "20c14e7d",
+        "timestamp": "2026-06-30 23:07:42",
+        "filename": "rhinoceros.jpg",
+        "original_url": "/uploads/rhinoceros_20c14e7d.jpg",
+        "result_url": "/uploads/det_rhinoceros_20c14e7d.jpg",
+        "detections": [
+            {
+                "class_name": "rhinoceros",
+                "confidence": 0.9200000166893005,
+                "box": [
+                    155,
+                    35,
+                    572,
+                    477
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "8ff3fad9",
+        "timestamp": "2026-06-30 23:07:26",
+        "filename": "pred_elephant.png",
+        "original_url": "/uploads/pred_elephant_8ff3fad9.png",
+        "result_url": "/uploads/det_pred_elephant_8ff3fad9.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.5672914385795593,
+                "box": [
+                    69,
+                    91,
+                    598,
+                    490
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "52cdc02a",
+        "timestamp": "2026-06-30 23:07:06",
+        "filename": "pred_cattle.jpg",
+        "original_url": "/uploads/pred_cattle_52cdc02a.jpg",
+        "result_url": "/uploads/det_pred_cattle_52cdc02a.jpg",
+        "detections": [
+            {
+                "class_name": "cattle",
+                "confidence": 0.9388259053230286,
+                "box": [
+                    710,
+                    156,
+                    1020,
+                    477
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8427753448486328,
+                "box": [
+                    160,
+                    158,
+                    330,
+                    509
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8124449849128723,
+                "box": [
+                    347,
+                    137,
+                    643,
+                    549
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.35287272930145264,
+                "box": [
+                    0,
+                    308,
+                    45,
+                    531
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.231469064950943,
+                "box": [
+                    529,
+                    143,
+                    672,
+                    528
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "30c1a5b4",
+        "timestamp": "2026-06-30 23:06:00",
+        "filename": "Elephant_pred.mp4",
+        "original_url": "/uploads/Elephant_pred_30c1a5b4.mp4",
+        "result_url": "/uploads/det_Elephant_pred_30c1a5b4.mp4",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.9274847507476807,
+                "risk_level": "WARNING"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.661881685256958,
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "rhinoceros",
+                "confidence": 0.3347637951374054,
+                "risk_level": "WARNING"
+            },
+            {
+                "class_name": "bull",
+                "confidence": 0.5778964757919312,
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": true,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "aa18d7a4",
+        "timestamp": "2026-06-30 23:04:21",
+        "filename": "pred_wolf.jpg",
+        "original_url": "/uploads/pred_wolf_aa18d7a4.jpg",
+        "result_url": "/uploads/det_pred_wolf_aa18d7a4.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.6810905933380127,
+                "box": [
+                    126,
+                    120,
+                    738,
+                    537
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "1e2dabb2",
+        "timestamp": "2026-06-30 23:04:08",
+        "filename": "pred_rhinoceros.jpg",
+        "original_url": "/uploads/pred_rhinoceros_1e2dabb2.jpg",
+        "result_url": "/uploads/det_pred_rhinoceros_1e2dabb2.jpg",
+        "detections": [
+            {
+                "class_name": "rhinoceros",
+                "confidence": 0.9200000166893005,
+                "box": [
+                    155,
+                    35,
+                    572,
+                    477
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "61827a48",
+        "timestamp": "2026-06-30 23:03:55",
+        "filename": "pred_monkey.jpeg",
+        "original_url": "/uploads/pred_monkey_61827a48.jpeg",
+        "result_url": "/uploads/det_pred_monkey_61827a48.jpg",
+        "detections": [
+            {
+                "class_name": "monkey",
+                "confidence": 0.8799999952316284,
+                "box": [
+                    173,
+                    62,
+                    478,
+                    513
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "0888f6bb",
+        "timestamp": "2026-06-30 23:03:30",
+        "filename": "pred_elephant.png",
+        "original_url": "/uploads/pred_elephant_0888f6bb.png",
+        "result_url": "/uploads/det_pred_elephant_0888f6bb.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.5672914385795593,
+                "box": [
+                    69,
+                    91,
+                    598,
+                    490
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "ef5e22f2",
+        "timestamp": "2026-06-30 23:03:05",
+        "filename": "pred_cattle.jpg",
+        "original_url": "/uploads/pred_cattle_ef5e22f2.jpg",
+        "result_url": "/uploads/det_pred_cattle_ef5e22f2.jpg",
+        "detections": [
+            {
+                "class_name": "cattle",
+                "confidence": 0.9388259053230286,
+                "box": [
+                    710,
+                    156,
+                    1020,
+                    477
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8427753448486328,
+                "box": [
+                    160,
+                    158,
+                    330,
+                    509
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8124449849128723,
+                "box": [
+                    347,
+                    137,
+                    643,
+                    549
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.35287272930145264,
+                "box": [
+                    0,
+                    308,
+                    45,
+                    531
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.231469064950943,
+                "box": [
+                    529,
+                    143,
+                    672,
+                    528
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "8f145850",
+        "timestamp": "2026-06-30 23:03:01",
+        "filename": "pred_cattle.jpg",
+        "original_url": "/uploads/pred_cattle_8f145850.jpg",
+        "result_url": "/uploads/det_pred_cattle_8f145850.jpg",
+        "detections": [
+            {
+                "class_name": "cattle",
+                "confidence": 0.9388259053230286,
+                "box": [
+                    710,
+                    156,
+                    1020,
+                    477
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8427753448486328,
+                "box": [
+                    160,
+                    158,
+                    330,
+                    509
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8124449849128723,
+                "box": [
+                    347,
+                    137,
+                    643,
+                    549
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.35287272930145264,
+                "box": [
+                    0,
+                    308,
+                    45,
+                    531
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "3a418657",
+        "timestamp": "2026-06-30 22:59:31",
+        "filename": "wolf.jpg",
+        "original_url": "/uploads/wolf_3a418657.jpg",
+        "result_url": "/uploads/det_wolf_3a418657.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.6810905933380127,
+                "box": [
+                    126,
+                    120,
+                    738,
+                    537
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "ea0bdde5",
+        "timestamp": "2026-06-30 22:51:30",
+        "filename": "rhinoceros.jpg",
+        "original_url": "/uploads/rhinoceros_ea0bdde5.jpg",
+        "result_url": "/uploads/det_rhinoceros_ea0bdde5.jpg",
+        "detections": [
+            {
+                "class_name": "rhinoceros",
+                "confidence": 0.9200000166893005,
+                "box": [
+                    155,
+                    35,
+                    572,
+                    477
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "07efc45e",
+        "timestamp": "2026-06-30 22:49:21",
+        "filename": "rhinoceros.jpg",
+        "original_url": "/uploads/rhinoceros_07efc45e.jpg",
+        "result_url": "/uploads/det_rhinoceros_07efc45e.jpg",
+        "detections": [
+            {
+                "class_name": "rhinoceros",
+                "confidence": 0.9200000166893005,
+                "box": [
+                    155,
+                    35,
+                    572,
+                    477
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "c4b45cc2",
+        "timestamp": "2026-06-30 22:15:20",
+        "filename": "det_det_elephant_e8c1f4b8_6bbd3c75.jpg",
+        "original_url": "/uploads/det_det_elephant_e8c1f4b8_6bbd3c75_c4b45cc2.jpg",
+        "result_url": "/uploads/det_det_det_elephant_e8c1f4b8_6bbd3c75_c4b45cc2.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.8338402509689331,
+                "box": [
+                    78,
+                    95,
+                    589,
+                    476
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "4aed54b0",
+        "timestamp": "2026-06-30 22:14:53",
+        "filename": "det_det_monkey_e0606578_d660719f.jpg",
+        "original_url": "/uploads/det_det_monkey_e0606578_d660719f_4aed54b0.jpg",
+        "result_url": "/uploads/det_det_det_monkey_e0606578_d660719f_4aed54b0.jpg",
+        "detections": [
+            {
+                "class_name": "monkey",
+                "confidence": 0.79084312915802,
+                "box": [
+                    204,
+                    73,
+                    475,
+                    368
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "e30cd8e6",
+        "timestamp": "2026-06-30 22:14:20",
+        "filename": "cattle_6e724895.jpg",
+        "original_url": "/uploads/cattle_6e724895_e30cd8e6.jpg",
+        "result_url": "/uploads/det_cattle_6e724895_e30cd8e6.jpg",
+        "detections": [
+            {
+                "class_name": "cattle",
+                "confidence": 0.9388259053230286,
+                "box": [
+                    710,
+                    156,
+                    1020,
+                    477
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8427753448486328,
+                "box": [
+                    160,
+                    158,
+                    330,
+                    509
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8124449849128723,
+                "box": [
+                    347,
+                    137,
+                    643,
+                    549
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.35287272930145264,
+                "box": [
+                    0,
+                    308,
+                    45,
+                    531
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "1212f373",
+        "timestamp": "2026-06-30 22:10:43",
+        "filename": "det_det_Elephant_pred_391a2082_c6116a5c.mp4",
+        "original_url": "/uploads/det_det_Elephant_pred_391a2082_c6116a5c_1212f373.mp4",
+        "result_url": "/uploads/det_det_det_Elephant_pred_391a2082_c6116a5c_1212f373.mp4",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.924420952796936,
+                "risk_level": "WARNING"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.9521464705467224,
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": true,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "84fa481a",
+        "timestamp": "2026-06-30 22:09:52",
+        "filename": "pred_elephant.png",
+        "original_url": "/uploads/pred_elephant_84fa481a.png",
+        "result_url": "/uploads/det_pred_elephant_84fa481a.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.5672914385795593,
+                "box": [
+                    69,
+                    91,
+                    598,
+                    490
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "5090f9c1",
+        "timestamp": "2026-06-30 22:09:32",
+        "filename": "det_det_elephant_e8c1f4b8_6bbd3c75.jpg",
+        "original_url": "/uploads/det_det_elephant_e8c1f4b8_6bbd3c75_5090f9c1.jpg",
+        "result_url": "/uploads/det_det_det_elephant_e8c1f4b8_6bbd3c75_5090f9c1.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.8338402509689331,
+                "box": [
+                    78,
+                    95,
+                    589,
+                    476
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "a9021bfc",
+        "timestamp": "2026-06-30 22:04:44",
+        "filename": "pred_elephant.png",
+        "original_url": "/uploads/pred_elephant_a9021bfc.png",
+        "result_url": "/uploads/det_pred_elephant_a9021bfc.jpg",
+        "detections": [
+            {
+                "class_name": "rhinoceros",
+                "confidence": 0.5672914385795593,
+                "box": [
+                    69,
+                    91,
+                    598,
+                    490
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "8a6837a7",
+        "timestamp": "2026-06-30 22:04:36",
+        "filename": "pred_monkey.jpeg",
+        "original_url": "/uploads/pred_monkey_8a6837a7.jpeg",
+        "result_url": "/uploads/det_pred_monkey_8a6837a7.jpg",
+        "detections": [
+            {
+                "class_name": "monkey",
+                "confidence": 0.2827596366405487,
+                "box": [
+                    173,
+                    62,
+                    478,
+                    513
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "c6116a5c",
+        "timestamp": "2026-06-30 22:01:40",
+        "filename": "det_Elephant_pred_391a2082.mp4",
+        "original_url": "/uploads/det_Elephant_pred_391a2082_c6116a5c.mp4",
+        "result_url": "/uploads/det_det_Elephant_pred_391a2082_c6116a5c.mp4",
+        "detections": [
+            {
+                "class_name": "rhinoceros",
+                "confidence": 0.9315629005432129,
+                "risk_level": "WARNING"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.9557031989097595,
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "bull",
+                "confidence": 0.3896743953227997,
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": true,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "a1f87e43",
+        "timestamp": "2026-06-30 22:01:05",
+        "filename": "det_cattle_8ccd5069.jpg",
+        "original_url": "/uploads/det_cattle_8ccd5069_a1f87e43.jpg",
+        "result_url": "/uploads/det_det_cattle_8ccd5069_a1f87e43.jpg",
+        "detections": [
+            {
+                "class_name": "cattle",
+                "confidence": 0.9385090470314026,
+                "box": [
+                    710,
+                    155,
+                    1020,
+                    477
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.836292028427124,
+                "box": [
+                    160,
+                    158,
+                    330,
+                    509
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8138610124588013,
+                "box": [
+                    347,
+                    137,
+                    642,
+                    550
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.32687437534332275,
+                "box": [
+                    0,
+                    308,
+                    45,
+                    532
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "045c6c6b",
+        "timestamp": "2026-06-30 22:01:00",
+        "filename": "det_cattle_8ccd5069.jpg",
+        "original_url": "/uploads/det_cattle_8ccd5069_045c6c6b.jpg",
+        "result_url": "/uploads/det_det_cattle_8ccd5069_045c6c6b.jpg",
+        "detections": [
+            {
+                "class_name": "cattle",
+                "confidence": 0.9385090470314026,
+                "box": [
+                    710,
+                    155,
+                    1020,
+                    477
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.836292028427124,
+                "box": [
+                    160,
+                    158,
+                    330,
+                    509
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8138610124588013,
+                "box": [
+                    347,
+                    137,
+                    642,
+                    550
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.32687437534332275,
+                "box": [
+                    0,
+                    308,
+                    45,
+                    532
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "e7d5917b",
+        "timestamp": "2026-06-30 21:59:42",
+        "filename": "simulated_tiger_1782836982579.jpg",
+        "original_url": "/uploads/simulated_tiger_1782836982579_e7d5917b.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782836982579_e7d5917b.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "60ddd4b4",
+        "timestamp": "2026-06-30 21:59:34",
+        "filename": "pred_monkey.jpeg",
+        "original_url": "/uploads/pred_monkey_60ddd4b4.jpeg",
+        "result_url": "/uploads/det_pred_monkey_60ddd4b4.jpg",
+        "detections": [
+            {
+                "class_name": "monkey",
+                "confidence": 0.2827596366405487,
+                "box": [
+                    173,
+                    62,
+                    478,
+                    513
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "67c51c23",
+        "timestamp": "2026-06-30 21:59:11",
+        "filename": "pred_elephant.png",
+        "original_url": "/uploads/pred_elephant_67c51c23.png",
+        "result_url": "/uploads/det_pred_elephant_67c51c23.jpg",
+        "detections": [
+            {
+                "class_name": "rhinoceros",
+                "confidence": 0.5672914385795593,
+                "box": [
+                    69,
+                    91,
+                    598,
+                    490
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "2de3a0da",
+        "timestamp": "2026-06-30 21:58:50",
+        "filename": "pred_cattle.jpg",
+        "original_url": "/uploads/pred_cattle_2de3a0da.jpg",
+        "result_url": "/uploads/det_pred_cattle_2de3a0da.jpg",
+        "detections": [
+            {
+                "class_name": "cattle",
+                "confidence": 0.9388259053230286,
+                "box": [
+                    710,
+                    156,
+                    1020,
+                    477
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8427753448486328,
+                "box": [
+                    160,
+                    158,
+                    330,
+                    509
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8124449849128723,
+                "box": [
+                    347,
+                    137,
+                    643,
+                    549
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.35287272930145264,
+                "box": [
+                    0,
+                    308,
+                    45,
+                    531
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "edf3e8b8",
+        "timestamp": "2026-06-30 21:54:10",
+        "filename": "pred_monkey.jpeg",
+        "original_url": "/uploads/pred_monkey_edf3e8b8.jpeg",
+        "result_url": "/uploads/det_pred_monkey_edf3e8b8.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.2827596366405487,
+                "box": [
+                    173,
+                    62,
+                    478,
+                    513
+                ],
+                "risk_level": "CRITICAL"
+            },
+            {
+                "class_name": "monkey",
+                "confidence": 0.2389666885137558,
+                "box": [
+                    195,
+                    37,
+                    497,
+                    388
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "860196a4",
+        "timestamp": "2026-06-30 21:53:53",
+        "filename": "simulated_tiger_1782836633130.jpg",
+        "original_url": "/uploads/simulated_tiger_1782836633130_860196a4.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782836633130_860196a4.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "bf86652b",
+        "timestamp": "2026-06-30 21:53:51",
+        "filename": "simulated_elephant_1782836631023.jpg",
+        "original_url": "/uploads/simulated_elephant_1782836631023_bf86652b.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782836631023_bf86652b.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "b4582c6c",
+        "timestamp": "2026-06-30 21:53:45",
+        "filename": "simulated_tiger_1782836625609.jpg",
+        "original_url": "/uploads/simulated_tiger_1782836625609_b4582c6c.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782836625609_b4582c6c.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "52bddbb0",
+        "timestamp": "2026-06-30 21:53:35",
+        "filename": "monkey.jpg",
+        "original_url": "/uploads/monkey_52bddbb0.jpg",
+        "result_url": "/uploads/det_monkey_52bddbb0.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.2827596366405487,
+                "box": [
+                    173,
+                    62,
+                    478,
+                    513
+                ],
+                "risk_level": "CRITICAL"
+            },
+            {
+                "class_name": "monkey",
+                "confidence": 0.2389666885137558,
+                "box": [
+                    195,
+                    37,
+                    497,
+                    388
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "6ff5969c",
+        "timestamp": "2026-06-30 21:53:31",
+        "filename": "monkey.jpg",
+        "original_url": "/uploads/monkey_6ff5969c.jpg",
+        "result_url": "/uploads/det_monkey_6ff5969c.jpg",
+        "detections": [],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "4490a807",
+        "timestamp": "2026-06-30 21:53:26",
+        "filename": "monkey.jpg",
+        "original_url": "/uploads/monkey_4490a807.jpg",
+        "result_url": "/uploads/det_monkey_4490a807.jpg",
+        "detections": [],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "c8a878ec",
+        "timestamp": "2026-06-30 21:50:55",
+        "filename": "monkey.jpg",
+        "original_url": "/uploads/monkey_c8a878ec.jpg",
+        "result_url": "/uploads/det_monkey_c8a878ec.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.2827596366405487,
+                "box": [
+                    173,
+                    62,
+                    478,
+                    513
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "f8d4f01f",
+        "timestamp": "2026-06-30 21:49:06",
+        "filename": "monkey.jpg",
+        "original_url": "/uploads/monkey_f8d4f01f.jpg",
+        "result_url": "/uploads/det_monkey_f8d4f01f.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.2827596366405487,
+                "box": [
+                    173,
+                    62,
+                    478,
+                    513
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "f008791c",
+        "timestamp": "2026-06-30 21:48:01",
+        "filename": "monkey.jpg",
+        "original_url": "/uploads/monkey_f008791c.jpg",
+        "result_url": "/uploads/det_monkey_f008791c.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.2827596366405487,
+                "box": [
+                    173,
+                    62,
+                    478,
+                    513
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "c7db809e",
+        "timestamp": "2026-06-30 21:36:01",
+        "filename": "elephant.jpg",
+        "original_url": "/uploads/elephant_c7db809e.jpg",
+        "result_url": "/uploads/det_elephant_c7db809e.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.5672914385795593,
+                "box": [
+                    69,
+                    91,
+                    598,
+                    490
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "20a24ffe",
+        "timestamp": "2026-06-30 21:34:11",
+        "filename": "monkey.jpg",
+        "original_url": "/uploads/monkey_20a24ffe.jpg",
+        "result_url": "/uploads/det_monkey_20a24ffe.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.2827596366405487,
+                "box": [
+                    173,
+                    62,
+                    478,
+                    513
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "e2853600",
+        "timestamp": "2026-06-30 21:26:28",
+        "filename": "pred_monkey.jpeg",
+        "original_url": "/uploads/pred_monkey_e2853600.jpeg",
+        "result_url": "/uploads/det_pred_monkey_e2853600.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.2827596366405487,
+                "box": [
+                    173,
+                    62,
+                    478,
+                    513
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "7e3605f5",
+        "timestamp": "2026-06-30 21:26:12",
+        "filename": "pred_elephant.png",
+        "original_url": "/uploads/pred_elephant_7e3605f5.png",
+        "result_url": "/uploads/det_pred_elephant_7e3605f5.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.5672914385795593,
+                "box": [
+                    69,
+                    91,
+                    598,
+                    490
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "43aa4bca",
+        "timestamp": "2026-06-30 21:26:03",
+        "filename": "pred_cattle.jpg",
+        "original_url": "/uploads/pred_cattle_43aa4bca.jpg",
+        "result_url": "/uploads/det_pred_cattle_43aa4bca.jpg",
+        "detections": [
+            {
+                "class_name": "cattle",
+                "confidence": 0.9388259053230286,
+                "box": [
+                    710,
+                    156,
+                    1020,
+                    477
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8427753448486328,
+                "box": [
+                    160,
+                    158,
+                    330,
+                    509
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8124449849128723,
+                "box": [
+                    347,
+                    137,
+                    643,
+                    549
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.35287272930145264,
+                "box": [
+                    0,
+                    308,
+                    45,
+                    531
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "237f8f96",
+        "timestamp": "2026-06-30 21:25:53",
+        "filename": "pred_monkey.jpeg",
+        "original_url": "/uploads/pred_monkey_237f8f96.jpeg",
+        "result_url": "/uploads/det_pred_monkey_237f8f96.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.2827596366405487,
+                "box": [
+                    173,
+                    62,
+                    478,
+                    513
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "391a2082",
+        "timestamp": "2026-06-30 21:24:59",
+        "filename": "Elephant_pred.mp4",
+        "original_url": "/uploads/Elephant_pred_391a2082.mp4",
+        "result_url": "/uploads/det_Elephant_pred_391a2082.mp4",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.9274847507476807,
+                "risk_level": "WARNING"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.661881685256958,
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "rhinoceros",
+                "confidence": 0.3347637951374054,
+                "risk_level": "WARNING"
+            },
+            {
+                "class_name": "bull",
+                "confidence": 0.5778964757919312,
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": true,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "180fd845",
+        "timestamp": "2026-06-30 21:24:17",
+        "filename": "simulated_tiger_1782453943128_6d6d808e.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453943128_6d6d808e_180fd845.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453943128_6d6d808e_180fd845.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "71ebf7fb",
+        "timestamp": "2026-06-30 21:22:13",
+        "filename": "det_monkey_e0606578_d660719f.jpg",
+        "original_url": "/uploads/det_monkey_e0606578_d660719f_71ebf7fb.jpg",
+        "result_url": "/uploads/det_det_monkey_e0606578_d660719f_71ebf7fb.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.31528180837631226,
+                "box": [
+                    173,
+                    63,
+                    479,
+                    512
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "da3ad32f",
+        "timestamp": "2026-06-30 21:22:08",
+        "filename": "det_monkey_e0606578_d660719f.jpg",
+        "original_url": "/uploads/det_monkey_e0606578_d660719f_da3ad32f.jpg",
+        "result_url": "/uploads/det_det_monkey_e0606578_d660719f_da3ad32f.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.31528180837631226,
+                "box": [
+                    173,
+                    63,
+                    479,
+                    512
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "6bbd3c75",
+        "timestamp": "2026-06-30 21:21:55",
+        "filename": "det_elephant_e8c1f4b8.jpg",
+        "original_url": "/uploads/det_elephant_e8c1f4b8_6bbd3c75.jpg",
+        "result_url": "/uploads/det_det_elephant_e8c1f4b8_6bbd3c75.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.7998459339141846,
+                "box": [
+                    75,
+                    96,
+                    588,
+                    483
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "88981cee",
+        "timestamp": "2026-06-30 21:21:41",
+        "filename": "cattle_284a4872.jpg",
+        "original_url": "/uploads/cattle_284a4872_88981cee.jpg",
+        "result_url": "/uploads/det_cattle_284a4872_88981cee.jpg",
+        "detections": [
+            {
+                "class_name": "cattle",
+                "confidence": 0.9388259053230286,
+                "box": [
+                    710,
+                    156,
+                    1020,
+                    477
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8427753448486328,
+                "box": [
+                    160,
+                    158,
+                    330,
+                    509
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.8124449849128723,
+                "box": [
+                    347,
+                    137,
+                    643,
+                    549
+                ],
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.35287272930145264,
+                "box": [
+                    0,
+                    308,
+                    45,
+                    531
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "SAFE",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "3ec8d614",
+        "timestamp": "2026-06-30 21:20:31",
+        "filename": "det_surveillance_video_1372cbb6.mp4",
+        "original_url": "/uploads/det_surveillance_video_1372cbb6_3ec8d614.mp4",
+        "result_url": "/uploads/det_det_surveillance_video_1372cbb6_3ec8d614.mp4",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.9288002848625183,
+                "risk_level": "WARNING"
+            },
+            {
+                "class_name": "cattle",
+                "confidence": 0.9415966868400574,
+                "risk_level": "SAFE"
+            },
+            {
+                "class_name": "rhinoceros",
+                "confidence": 0.1045345589518547,
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": true,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "d660719f",
+        "timestamp": "2026-06-30 21:19:37",
+        "filename": "det_monkey_e0606578.jpg",
+        "original_url": "/uploads/det_monkey_e0606578_d660719f.jpg",
+        "result_url": "/uploads/det_det_monkey_e0606578_d660719f.jpg",
+        "detections": [
+            {
+                "class_name": "wolf",
+                "confidence": 0.31528180837631226,
+                "box": [
+                    173,
+                    63,
+                    479,
+                    512
+                ],
+                "risk_level": "CRITICAL"
+            },
+            {
+                "class_name": "monkey",
+                "confidence": 0.23115453124046326,
+                "box": [
+                    194,
+                    37,
+                    498,
+                    386
+                ],
+                "risk_level": "SAFE"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "84cf4976",
+        "timestamp": "2026-06-30 21:19:08",
+        "filename": "det_elephant_fe92f9b2.jpg",
+        "original_url": "/uploads/det_elephant_fe92f9b2_84cf4976.jpg",
+        "result_url": "/uploads/det_det_elephant_fe92f9b2_84cf4976.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.7998459339141846,
+                "box": [
+                    75,
+                    96,
+                    588,
+                    483
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "d44dd6b0",
+        "timestamp": "2026-06-30 20:37:19",
+        "filename": "simulated_tiger_1782832039311.jpg",
+        "original_url": "/uploads/simulated_tiger_1782832039311_d44dd6b0.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782832039311_d44dd6b0.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "5727fc53",
+        "timestamp": "2026-06-26 11:39:02",
+        "filename": "simulated_tiger_1782454141977.jpg",
+        "original_url": "/uploads/simulated_tiger_1782454141977_5727fc53.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782454141977_5727fc53.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "7cb956e9",
+        "timestamp": "2026-06-26 11:38:52",
+        "filename": "simulated_tiger_1782454132612.jpg",
+        "original_url": "/uploads/simulated_tiger_1782454132612_7cb956e9.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782454132612_7cb956e9.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "be594093",
+        "timestamp": "2026-06-26 11:38:25",
+        "filename": "simulated_elephant_1782454105394.jpg",
+        "original_url": "/uploads/simulated_elephant_1782454105394_be594093.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782454105394_be594093.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "ec94a11a",
+        "timestamp": "2026-06-26 11:38:19",
+        "filename": "simulated_elephant_1782454098976.jpg",
+        "original_url": "/uploads/simulated_elephant_1782454098976_ec94a11a.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782454098976_ec94a11a.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "3b3eb0f1",
+        "timestamp": "2026-06-26 11:38:16",
+        "filename": "simulated_tiger_1782454096516.jpg",
+        "original_url": "/uploads/simulated_tiger_1782454096516_3b3eb0f1.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782454096516_3b3eb0f1.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "66450ab8",
+        "timestamp": "2026-06-26 11:38:10",
+        "filename": "simulated_elephant_1782454090499.jpg",
+        "original_url": "/uploads/simulated_elephant_1782454090499_66450ab8.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782454090499_66450ab8.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "21e0542a",
+        "timestamp": "2026-06-26 11:38:07",
+        "filename": "simulated_tiger_1782454087832.jpg",
+        "original_url": "/uploads/simulated_tiger_1782454087832_21e0542a.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782454087832_21e0542a.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "67432dca",
+        "timestamp": "2026-06-26 11:38:02",
+        "filename": "simulated_elephant_1782454082223.jpg",
+        "original_url": "/uploads/simulated_elephant_1782454082223_67432dca.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782454082223_67432dca.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "a09abed1",
+        "timestamp": "2026-06-26 11:37:59",
+        "filename": "simulated_tiger_1782454079240.jpg",
+        "original_url": "/uploads/simulated_tiger_1782454079240_a09abed1.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782454079240_a09abed1.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "e6d818db",
+        "timestamp": "2026-06-26 11:37:53",
+        "filename": "simulated_elephant_1782454073636.jpg",
+        "original_url": "/uploads/simulated_elephant_1782454073636_e6d818db.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782454073636_e6d818db.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "0d8a869b",
+        "timestamp": "2026-06-26 11:37:50",
+        "filename": "simulated_tiger_1782454070004.jpg",
+        "original_url": "/uploads/simulated_tiger_1782454070004_0d8a869b.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782454070004_0d8a869b.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "7d624305",
+        "timestamp": "2026-06-26 11:37:09",
+        "filename": "simulated_tiger_1782454029722.jpg",
+        "original_url": "/uploads/simulated_tiger_1782454029722_7d624305.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782454029722_7d624305.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "5a1a88ef",
+        "timestamp": "2026-06-26 11:37:06",
+        "filename": "simulated_tiger_1782454026745.jpg",
+        "original_url": "/uploads/simulated_tiger_1782454026745_5a1a88ef.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782454026745_5a1a88ef.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "aed6c445",
+        "timestamp": "2026-06-26 11:36:47",
+        "filename": "simulated_elephant_1782454007337.jpg",
+        "original_url": "/uploads/simulated_elephant_1782454007337_aed6c445.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782454007337_aed6c445.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "874d86dd",
+        "timestamp": "2026-06-26 11:36:41",
+        "filename": "simulated_tiger_1782454001399.jpg",
+        "original_url": "/uploads/simulated_tiger_1782454001399_874d86dd.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782454001399_874d86dd.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "b54d386c",
+        "timestamp": "2026-06-26 11:36:39",
+        "filename": "simulated_elephant_1782453999173.jpg",
+        "original_url": "/uploads/simulated_elephant_1782453999173_b54d386c.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782453999173_b54d386c.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "f8bd14e9",
+        "timestamp": "2026-06-26 11:36:32",
+        "filename": "simulated_tiger_1782453992957.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453992957_f8bd14e9.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453992957_f8bd14e9.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "36de67fe",
+        "timestamp": "2026-06-26 11:36:31",
+        "filename": "simulated_elephant_1782453991068.jpg",
+        "original_url": "/uploads/simulated_elephant_1782453991068_36de67fe.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782453991068_36de67fe.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "832bf9be",
+        "timestamp": "2026-06-26 11:36:22",
+        "filename": "simulated_elephant_1782453982887.jpg",
+        "original_url": "/uploads/simulated_elephant_1782453982887_832bf9be.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782453982887_832bf9be.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "298415cb",
+        "timestamp": "2026-06-26 11:36:14",
+        "filename": "simulated_elephant_1782453974770.jpg",
+        "original_url": "/uploads/simulated_elephant_1782453974770_298415cb.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782453974770_298415cb.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "ad61b0c7",
+        "timestamp": "2026-06-26 11:36:06",
+        "filename": "simulated_elephant_1782453966647.jpg",
+        "original_url": "/uploads/simulated_elephant_1782453966647_ad61b0c7.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782453966647_ad61b0c7.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "3d1fd6af",
+        "timestamp": "2026-06-26 11:35:58",
+        "filename": "simulated_elephant_1782453958584.jpg",
+        "original_url": "/uploads/simulated_elephant_1782453958584_3d1fd6af.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782453958584_3d1fd6af.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "8645d8d1",
+        "timestamp": "2026-06-26 11:35:50",
+        "filename": "simulated_elephant_1782453950482.jpg",
+        "original_url": "/uploads/simulated_elephant_1782453950482_8645d8d1.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782453950482_8645d8d1.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "6d6d808e",
+        "timestamp": "2026-06-26 11:35:43",
+        "filename": "simulated_tiger_1782453943128.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453943128_6d6d808e.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453943128_6d6d808e.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "2a36301d",
+        "timestamp": "2026-06-26 11:33:59",
+        "filename": "simulated_tiger_1782453839068.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453839068_2a36301d.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453839068_2a36301d.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "c2d01db6",
+        "timestamp": "2026-06-26 11:33:57",
+        "filename": "simulated_elephant_1782453837249.jpg",
+        "original_url": "/uploads/simulated_elephant_1782453837249_c2d01db6.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782453837249_c2d01db6.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "ce2fdd17",
+        "timestamp": "2026-06-26 11:33:52",
+        "filename": "simulated_tiger_1782453832100.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453832100_ce2fdd17.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453832100_ce2fdd17.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "bd9ee49c",
+        "timestamp": "2026-06-26 11:33:09",
+        "filename": "simulated_tiger_1782453789042.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453789042_bd9ee49c.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453789042_bd9ee49c.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "7a286f35",
+        "timestamp": "2026-06-26 11:32:25",
+        "filename": "simulated_tiger_1782453745174.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453745174_7a286f35.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453745174_7a286f35.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "5de36947",
+        "timestamp": "2026-06-26 11:32:22",
+        "filename": "simulated_tiger_1782453742345.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453742345_5de36947.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453742345_5de36947.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "4039dd9f",
+        "timestamp": "2026-06-26 11:32:20",
+        "filename": "simulated_tiger_1782453740011.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453740011_4039dd9f.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453740011_4039dd9f.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "020aa1b9",
+        "timestamp": "2026-06-26 11:32:17",
+        "filename": "simulated_tiger_1782453737469.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453737469_020aa1b9.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453737469_020aa1b9.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "6130d1b4",
+        "timestamp": "2026-06-26 11:32:14",
+        "filename": "simulated_tiger_1782453734818.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453734818_6130d1b4.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453734818_6130d1b4.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "d52ef42e",
+        "timestamp": "2026-06-26 11:32:09",
+        "filename": "simulated_elephant_1782453729799.jpg",
+        "original_url": "/uploads/simulated_elephant_1782453729799_d52ef42e.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782453729799_d52ef42e.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "bb647239",
+        "timestamp": "2026-06-26 11:32:07",
+        "filename": "simulated_tiger_1782453727703.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453727703_bb647239.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453727703_bb647239.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "2684ad48",
+        "timestamp": "2026-06-26 11:32:00",
+        "filename": "simulated_tiger_1782453720493.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453720493_2684ad48.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453720493_2684ad48.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "984f6dc7",
+        "timestamp": "2026-06-26 11:31:54",
+        "filename": "simulated_tiger_1782453714110.jpg",
+        "original_url": "/uploads/simulated_tiger_1782453714110_984f6dc7.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782453714110_984f6dc7.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "e4f27ba9",
+        "timestamp": "2026-06-25 08:59:38",
+        "filename": "simulated_tiger_1782358178553.jpg",
+        "original_url": "/uploads/simulated_tiger_1782358178553_e4f27ba9.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782358178553_e4f27ba9.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "5e854ebe",
+        "timestamp": "2026-06-25 08:59:33",
+        "filename": "simulated_tiger_1782358173311.jpg",
+        "original_url": "/uploads/simulated_tiger_1782358173311_5e854ebe.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782358173311_5e854ebe.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "865334cc",
+        "timestamp": "2026-06-25 08:59:25",
+        "filename": "simulated_elephant_1782358165355.jpg",
+        "original_url": "/uploads/simulated_elephant_1782358165355_865334cc.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782358165355_865334cc.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "28c393be",
+        "timestamp": "2026-06-25 08:59:22",
+        "filename": "simulated_tiger_1782358162816.jpg",
+        "original_url": "/uploads/simulated_tiger_1782358162816_28c393be.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782358162816_28c393be.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "e2bcba75",
+        "timestamp": "2026-06-25 08:59:06",
+        "filename": "simulated_tiger_1782358146777.jpg",
+        "original_url": "/uploads/simulated_tiger_1782358146777_e2bcba75.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782358146777_e2bcba75.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "83581fe3",
+        "timestamp": "2026-06-25 08:59:01",
+        "filename": "simulated_tiger_1782358141471.jpg",
+        "original_url": "/uploads/simulated_tiger_1782358141471_83581fe3.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782358141471_83581fe3.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "fa5a98b8",
+        "timestamp": "2026-06-25 08:58:56",
+        "filename": "simulated_tiger_1782358136165.jpg",
+        "original_url": "/uploads/simulated_tiger_1782358136165_fa5a98b8.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782358136165_fa5a98b8.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "9fd6ce11",
+        "timestamp": "2026-06-25 08:58:49",
+        "filename": "simulated_elephant_1782358129025.jpg",
+        "original_url": "/uploads/simulated_elephant_1782358129025_9fd6ce11.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782358129025_9fd6ce11.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "fbe6b371",
+        "timestamp": "2026-06-25 08:58:46",
+        "filename": "simulated_tiger_1782358125800.jpg",
+        "original_url": "/uploads/simulated_tiger_1782358125800_fbe6b371.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782358125800_fbe6b371.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "a5fc4ca0",
+        "timestamp": "2026-06-25 08:32:50",
+        "filename": "simulated_elephant_1782356570661.jpg",
+        "original_url": "/uploads/simulated_elephant_1782356570661_a5fc4ca0.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782356570661_a5fc4ca0.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "18971300",
+        "timestamp": "2026-06-25 08:32:48",
+        "filename": "simulated_tiger_1782356568547.jpg",
+        "original_url": "/uploads/simulated_tiger_1782356568547_18971300.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782356568547_18971300.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "89f47a8d",
+        "timestamp": "2026-06-25 08:32:42",
+        "filename": "simulated_elephant_1782356562570.jpg",
+        "original_url": "/uploads/simulated_elephant_1782356562570_89f47a8d.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782356562570_89f47a8d.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "0a94cfdc",
+        "timestamp": "2026-06-25 08:32:37",
+        "filename": "simulated_tiger_1782356557460.jpg",
+        "original_url": "/uploads/simulated_tiger_1782356557460_0a94cfdc.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782356557460_0a94cfdc.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "4bc79312",
+        "timestamp": "2026-06-25 08:32:34",
+        "filename": "simulated_elephant_1782356554483.jpg",
+        "original_url": "/uploads/simulated_elephant_1782356554483_4bc79312.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782356554483_4bc79312.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "7ef2adaa",
+        "timestamp": "2026-06-25 08:32:24",
+        "filename": "simulated_elephant_1782356543766.jpg",
+        "original_url": "/uploads/simulated_elephant_1782356543766_7ef2adaa.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782356543766_7ef2adaa.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "2c8af553",
+        "timestamp": "2026-06-25 08:32:20",
+        "filename": "simulated_tiger_1782356540828.jpg",
+        "original_url": "/uploads/simulated_tiger_1782356540828_2c8af553.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782356540828_2c8af553.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "c180ef03",
+        "timestamp": "2026-06-25 08:32:16",
+        "filename": "simulated_elephant_1782356536707.jpg",
+        "original_url": "/uploads/simulated_elephant_1782356536707_c180ef03.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782356536707_c180ef03.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "6662e6ff",
+        "timestamp": "2026-06-25 08:32:13",
+        "filename": "simulated_tiger_1782356533659.jpg",
+        "original_url": "/uploads/simulated_tiger_1782356533659_6662e6ff.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782356533659_6662e6ff.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "055d1f53",
+        "timestamp": "2026-06-25 08:32:08",
+        "filename": "simulated_tiger_1782356528115.jpg",
+        "original_url": "/uploads/simulated_tiger_1782356528115_055d1f53.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782356528115_055d1f53.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "b40c5dc4",
+        "timestamp": "2026-06-25 08:31:26",
+        "filename": "simulated_tiger_1782356486341.jpg",
+        "original_url": "/uploads/simulated_tiger_1782356486341_b40c5dc4.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782356486341_b40c5dc4.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "fdb328c8",
+        "timestamp": "2026-06-25 08:31:23",
+        "filename": "simulated_elephant_1782356482978.jpg",
+        "original_url": "/uploads/simulated_elephant_1782356482978_fdb328c8.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782356482978_fdb328c8.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "1dcbb767",
+        "timestamp": "2026-06-25 08:31:18",
+        "filename": "simulated_tiger_1782356478552.jpg",
+        "original_url": "/uploads/simulated_tiger_1782356478552_1dcbb767.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782356478552_1dcbb767.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "3b9b212b",
+        "timestamp": "2026-06-25 08:31:14",
+        "filename": "simulated_elephant_1782356474903.jpg",
+        "original_url": "/uploads/simulated_elephant_1782356474903_3b9b212b.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782356474903_3b9b212b.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "7318fc53",
+        "timestamp": "2026-06-25 08:31:13",
+        "filename": "simulated_tiger_1782356473021.jpg",
+        "original_url": "/uploads/simulated_tiger_1782356473021_7318fc53.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782356473021_7318fc53.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "643eeec9",
+        "timestamp": "2026-06-25 08:31:06",
+        "filename": "simulated_elephant_1782356466644.jpg",
+        "original_url": "/uploads/simulated_elephant_1782356466644_643eeec9.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782356466644_643eeec9.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "452e17b4",
+        "timestamp": "2026-06-25 08:31:01",
+        "filename": "simulated_tiger_1782356461594.jpg",
+        "original_url": "/uploads/simulated_tiger_1782356461594_452e17b4.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782356461594_452e17b4.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "1d29ed9b",
+        "timestamp": "2026-06-25 08:30:58",
+        "filename": "simulated_elephant_1782356458386.jpg",
+        "original_url": "/uploads/simulated_elephant_1782356458386_1d29ed9b.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782356458386_1d29ed9b.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "82ce4c9c",
+        "timestamp": "2026-06-25 08:30:55",
+        "filename": "simulated_tiger_1782356455694.jpg",
+        "original_url": "/uploads/simulated_tiger_1782356455694_82ce4c9c.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782356455694_82ce4c9c.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "aeeb0048",
+        "timestamp": "2026-06-25 08:30:50",
+        "filename": "simulated_tiger_1782356450718.jpg",
+        "original_url": "/uploads/simulated_tiger_1782356450718_aeeb0048.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782356450718_aeeb0048.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "eef221da",
+        "timestamp": "2026-06-22 22:47:39",
+        "filename": "simulated_tiger_1782148659885.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148659885_eef221da.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148659885_eef221da.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "79653689",
+        "timestamp": "2026-06-22 22:47:36",
+        "filename": "simulated_elephant_1782148656519.jpg",
+        "original_url": "/uploads/simulated_elephant_1782148656519_79653689.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782148656519_79653689.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "e191b44e",
+        "timestamp": "2026-06-22 22:47:34",
+        "filename": "simulated_tiger_1782148654088.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148654088_e191b44e.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148654088_e191b44e.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "df3f0799",
+        "timestamp": "2026-06-22 22:47:28",
+        "filename": "simulated_tiger_1782148648309.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148648309_df3f0799.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148648309_df3f0799.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "cab24f62",
+        "timestamp": "2026-06-22 22:47:21",
+        "filename": "simulated_elephant_1782148641651.jpg",
+        "original_url": "/uploads/simulated_elephant_1782148641651_cab24f62.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782148641651_cab24f62.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "12190c50",
+        "timestamp": "2026-06-22 22:47:16",
+        "filename": "simulated_tiger_1782148636827.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148636827_12190c50.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148636827_12190c50.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "df3cff4f",
+        "timestamp": "2026-06-22 22:47:14",
+        "filename": "simulated_elephant_1782148634150.jpg",
+        "original_url": "/uploads/simulated_elephant_1782148634150_df3cff4f.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782148634150_df3cff4f.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "7384f9f6",
+        "timestamp": "2026-06-22 22:47:10",
+        "filename": "simulated_tiger_1782148630901.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148630901_7384f9f6.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148630901_7384f9f6.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "4129d71c",
+        "timestamp": "2026-06-22 22:47:06",
+        "filename": "simulated_elephant_1782148626661.jpg",
+        "original_url": "/uploads/simulated_elephant_1782148626661_4129d71c.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782148626661_4129d71c.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "0f875f04",
+        "timestamp": "2026-06-22 22:47:05",
+        "filename": "simulated_tiger_1782148625078.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148625078_0f875f04.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148625078_0f875f04.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "ad914af1",
+        "timestamp": "2026-06-22 22:46:59",
+        "filename": "simulated_tiger_1782148619896.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148619896_ad914af1.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148619896_ad914af1.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "c5297a7b",
+        "timestamp": "2026-06-22 22:46:54",
+        "filename": "simulated_tiger_1782148613845.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148613845_c5297a7b.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148613845_c5297a7b.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": true
+        }
+    },
+    {
+        "id": "f567d98f",
+        "timestamp": "2026-06-22 22:39:35",
+        "filename": "simulated_elephant_1782148175892.jpg",
+        "original_url": "/uploads/simulated_elephant_1782148175892_f567d98f.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782148175892_f567d98f.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "9c3cd49a",
+        "timestamp": "2026-06-22 22:39:34",
+        "filename": "simulated_elephant_1782148174103.jpg",
+        "original_url": "/uploads/simulated_elephant_1782148174103_9c3cd49a.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782148174103_9c3cd49a.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "c362e213",
+        "timestamp": "2026-06-22 22:39:29",
+        "filename": "simulated_elephant_1782148169599.jpg",
+        "original_url": "/uploads/simulated_elephant_1782148169599_c362e213.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782148169599_c362e213.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "d255d1d4",
+        "timestamp": "2026-06-22 22:39:27",
+        "filename": "simulated_elephant_1782148167909.jpg",
+        "original_url": "/uploads/simulated_elephant_1782148167909_d255d1d4.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782148167909_d255d1d4.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "96a36f7a",
+        "timestamp": "2026-06-22 22:38:01",
+        "filename": "simulated_elephant_1782148081877.jpg",
+        "original_url": "/uploads/simulated_elephant_1782148081877_96a36f7a.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782148081877_96a36f7a.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "bf01e303",
+        "timestamp": "2026-06-22 22:37:56",
+        "filename": "simulated_elephant_1782148076346.jpg",
+        "original_url": "/uploads/simulated_elephant_1782148076346_bf01e303.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782148076346_bf01e303.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "ca7e715a",
+        "timestamp": "2026-06-22 22:37:50",
+        "filename": "simulated_tiger_1782148070860.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148070860_ca7e715a.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148070860_ca7e715a.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "f757b8a6",
+        "timestamp": "2026-06-22 22:37:48",
+        "filename": "simulated_tiger_1782148068309.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148068309_f757b8a6.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148068309_f757b8a6.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "e53faf0c",
+        "timestamp": "2026-06-22 22:37:37",
+        "filename": "simulated_tiger_1782148057694.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148057694_e53faf0c.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148057694_e53faf0c.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "e2dc90ab",
+        "timestamp": "2026-06-22 22:37:36",
+        "filename": "simulated_tiger_1782148056648.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148056648_e2dc90ab.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148056648_e2dc90ab.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "9c6c13d1",
+        "timestamp": "2026-06-22 22:37:34",
+        "filename": "simulated_tiger_1782148054189.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148054189_9c6c13d1.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148054189_9c6c13d1.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "d8850edd",
+        "timestamp": "2026-06-22 22:37:30",
+        "filename": "simulated_tiger_1782148050489.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148050489_d8850edd.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148050489_d8850edd.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "3360e91a",
+        "timestamp": "2026-06-22 22:37:29",
+        "filename": "simulated_tiger_1782148049094.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148049094_3360e91a.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148049094_3360e91a.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "91f98b77",
+        "timestamp": "2026-06-22 22:37:28",
+        "filename": "simulated_elephant_1782148048452.jpg",
+        "original_url": "/uploads/simulated_elephant_1782148048452_91f98b77.jpg",
+        "result_url": "/uploads/det_simulated_elephant_1782148048452_91f98b77.jpg",
+        "detections": [
+            {
+                "class_name": "elephant",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "WARNING"
+            }
+        ],
+        "highest_risk": "WARNING",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    },
+    {
+        "id": "ab232e82",
+        "timestamp": "2026-06-22 22:37:24",
+        "filename": "simulated_tiger_1782148044076.jpg",
+        "original_url": "/uploads/simulated_tiger_1782148044076_ab232e82.jpg",
+        "result_url": "/uploads/det_simulated_tiger_1782148044076_ab232e82.jpg",
+        "detections": [
+            {
+                "class_name": "tiger",
+                "confidence": 0.95,
+                "box": [
+                    100,
+                    150,
+                    200,
+                    250
+                ],
+                "risk_level": "CRITICAL"
+            }
+        ],
+        "highest_risk": "CRITICAL",
+        "is_video": false,
+        "alerts_sent": {
+            "telegram": false,
+            "whatsapp": false
+        }
+    }
+]

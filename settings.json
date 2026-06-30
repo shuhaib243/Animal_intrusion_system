@@ -1,0 +1,10 @@
+{
+    "admin_username": "admin",
+    "admin_password": "admin123",
+    "telegram_enabled": false,
+    "telegram_token": "test_token_abc",
+    "telegram_chat_id": "111222333",
+    "whatsapp_enabled": true,
+    "whatsapp_phone": "+916361128018",
+    "whatsapp_apikey": "test_key_xyz"
+}

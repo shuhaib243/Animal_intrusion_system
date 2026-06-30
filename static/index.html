@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WildShield - Tactical Intrusion Detection Center</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Tabler Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont/tabler-icons.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="theme-dark">
+    <!-- Alarm Overlay for red alert strobe flashes -->
+    <div id="alarmOverlay" class="alarm-overlay"></div>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <div class="logo-icon-wrapper">
+                    <i class="ti ti-shield-check logo-icon-svg"></i>
+                </div>
+                <div class="logo-brand">
+                    <h1 class="logo-text">WILD<span>SHIELD</span></h1>
+                    <span class="logo-subtitle">TACTICAL SENTINEL v5.2</span>
+                </div>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#monitor" class="nav-link active" id="navMonitor">
+                    <i class="ti ti-device-desktop-analytics"></i>
+                    <span>Monitor Feed</span>
+                </a>
+                <a href="#analytics" class="nav-link" id="navAnalytics">
+                    <i class="ti ti-chart-bar"></i>
+                    <span>Data Analytics</span>
+                </a>
+                <a href="#logs" class="nav-link" id="navLogs">
+                    <i class="ti ti-report-medical"></i>
+                    <span>Intrusion Logs</span>
+                </a>
+                <a href="#settings" class="nav-link" id="navSettings">
+                    <i class="ti ti-settings-automation"></i>
+                    <span>System Settings</span>
+                </a>
+            </nav>
+
+            <!-- Sidebar Status Card -->
+            <div class="system-status-card">
+                <div class="status-header">
+                    <span class="pulse-indicator green" id="statusPulse"></span>
+                    <span id="statusText">System: ONLINE</span>
+                </div>
+                <div class="status-details">
+                    <span class="model-info">Core: YOLOv5 Custom (best.pt)</span>
+                    <span class="device-info">Acceleration: GPU/CPU Native</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar-fill" style="width: 100%;"></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Workspace -->
+        <main class="main-content">
+            <!-- Top Dashboard Bar -->
+            <header class="top-bar">
+                <div class="page-title-section">
+                    <h2 id="pageTitle">Live Threat Monitoring</h2>
+                    <p class="subtitle">Real-time object detection & automated tactical alerts</p>
+                </div>
+                
+                <div class="status-badge-container">
+                    <div id="threatLevelBadge" class="threat-badge threat-safe">
+                        <i class="ti ti-shield-check"></i>
+                        <span class="threat-label">LEVEL: SAFE</span>
+                    </div>
+                    <button id="muteAlarmBtn" class="mute-btn" title="Toggle Alarm Audio">
+                        <span id="muteIcon"><i class="ti ti-volume"></i></span>
+                        <span>Mute Alarm</span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Workspace Scrollable Panel -->
+            <div class="content-scroll-area">
+
+                <!-- MONITOR SECTION -->
+                <section id="monitorSection" class="workspace-section active">
+                    <!-- Perimeter Siren Control Panel -->
+                    <div class="siren-control-panel">
+                        <div class="siren-panel-header">
+                            <div class="siren-panel-title">
+                                <i class="ti ti-bell-ringing"></i>
+                                <h4>Perimeter Siren Control</h4>
+                            </div>
+                            <div class="crossing-status-group">
+                                <span id="crossingStatusBadge" class="crossing-badge crossing-clear">
+                                    <i class="ti ti-circle-check"></i> NO ANIMAL CROSSING
+                                </span>
+                            </div>
+                        </div>
+                        <div class="siren-buttons-grid">
+                            <button id="btnSirenWarning" class="siren-btn siren-btn-warning" title="Activate warning — animal detected at perimeter">
+                                <i class="ti ti-alert-circle"></i>
+                                <span>Warning</span>
+                            </button>
+                            <button id="btnSirenAlert" class="siren-btn siren-btn-alert" title="Activate critical alert — dangerous animal crossing">
+                                <i class="ti ti-alert-triangle"></i>
+                                <span>Alert</span>
+                            </button>
+                            <button id="btnSirenAllClear" class="siren-btn siren-btn-allclear" title="All clear — acknowledge and reset perimeter">
+                                <i class="ti ti-shield-check"></i>
+                                <span>All Clear</span>
+                            </button>
+                            <button id="btnSirenTrigger" class="siren-btn siren-btn-siren" title="Toggle manual siren sound">
+                                <i class="ti ti-alarm"></i>
+                                <span>Siren</span>
+                            </button>
+                            <button id="btnSirenSafe" class="siren-btn siren-btn-safe" title="Mark as safe — non-threatening animal crossing">
+                                <i class="ti ti-paw"></i>
+                                <span>Safe</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Critical Alert Banner -->
+                    <div id="alertBanner" class="alert-banner hidden">
+                        <div class="alert-banner-content">
+                            <span class="alert-banner-icon"><i class="ti ti-alert-triangle animate-pulse"></i></span>
+                            <div class="alert-banner-text">
+                                <h4 id="alertBannerTitle">WARNING: INTRUSION DETECTED</h4>
+                                <p id="alertBannerDesc">A dangerous animal has crossed the perimeter boundary.</p>
+                            </div>
+                            <button id="dismissAlertBtn" class="dismiss-alert-btn">ACKNOWLEDGE & DISMISS</button>
+                        </div>
+                    </div>
+
+                    <!-- Sector Sentinel Map Card & Radar -->
+                    <div class="card map-card">
+                        <div class="card-header">
+                            <div class="header-title-group">
+                                <i class="ti ti-radar text-cyan-400"></i>
+                                <h3>Grid Sector Sentinel Map</h3>
+                            </div>
+                            <span class="badge badge-risk-safe" id="sentinelStatusLabel">ALL SECTORS SECURE</span>
+                        </div>
+                        <div class="card-body map-flex-container">
+                            <div class="radar-visualization">
+                                <svg viewBox="0 0 200 200" class="radar-svg">
+                                    <circle cx="100" cy="100" r="80" class="radar-grid-line" />
+                                    <circle cx="100" cy="100" r="55" class="radar-grid-line" />
+                                    <circle cx="100" cy="100" r="30" class="radar-grid-line" />
+                                    <line x1="100" y1="20" x2="100" y2="180" class="radar-grid-line" />
+                                    <line x1="20" y1="100" x2="180" y2="100" class="radar-grid-line" />
+
+                                    <!-- Sector slices -->
+                                    <path id="sectorPathNorth" d="M 100 100 L 43.4 43.4 A 80 80 0 0 1 156.6 43.4 Z" class="radar-sector sector-safe" />
+                                    <path id="sectorPathEast" d="M 100 100 L 156.6 43.4 A 80 80 0 0 1 156.6 156.6 Z" class="radar-sector sector-safe" />
+                                    <path id="sectorPathSouth" d="M 100 100 L 156.6 156.6 A 80 80 0 0 1 43.4 156.6 Z" class="radar-sector sector-safe" />
+                                    <path id="sectorPathWest" d="M 100 100 L 43.4 156.6 A 80 80 0 0 1 43.4 43.4 Z" class="radar-sector sector-safe" />
+
+                                    <!-- Radar sweeping hand -->
+                                    <line x1="100" y1="100" x2="100" y2="20" class="radar-sweep-hand" />
+                                    <circle cx="100" cy="100" r="4" class="radar-center-hub" />
+                                </svg>
+                            </div>
+
+                            <div class="sector-status-deck">
+                                <div class="sector-status-card" id="sectorCardNorth" data-sector="north">
+                                    <div class="sector-indicator safe"></div>
+                                    <div class="sector-details">
+                                        <span class="sector-title">NORTH SECTOR <span class="sector-badge font-mono">CAM_02</span></span>
+                                        <span class="sector-desc" id="sectorDescNorth">Camera Connected — Live Feed</span>
+                                    </div>
+                                    <div class="sector-radar-blip"><i class="ti ti-wifi"></i></div>
+                                </div>
+                                <div class="sector-status-card" id="sectorCardEast" data-sector="east">
+                                    <div class="sector-indicator safe"></div>
+                                    <div class="sector-details">
+                                        <span class="sector-title">EAST SECTOR <span class="sector-badge font-mono">CAM_03</span></span>
+                                        <span class="sector-desc" id="sectorDescEast">Camera Connected — Live Feed</span>
+                                    </div>
+                                    <div class="sector-radar-blip"><i class="ti ti-wifi"></i></div>
+                                </div>
+                                <div class="sector-status-card" id="sectorCardSouth" data-sector="south">
+                                    <div class="sector-indicator safe"></div>
+                                    <div class="sector-details">
+                                        <span class="sector-title">SOUTH SECTOR <span class="sector-badge font-mono">CAM_04</span></span>
+                                        <span class="sector-desc" id="sectorDescSouth">Camera Connected — Live Feed</span>
+                                    </div>
+                                    <div class="sector-radar-blip"><i class="ti ti-wifi"></i></div>
+                                </div>
+                                <div class="sector-status-card" id="sectorCardWest" data-sector="west">
+                                    <div class="sector-indicator safe"></div>
+                                    <div class="sector-details">
+                                        <span class="sector-title">WEST SECTOR <span class="sector-badge font-mono">CAM_01</span></span>
+                                        <span class="sector-desc" id="sectorDescWest">Camera Connected — Live Feed</span>
+                                    </div>
+                                    <div class="sector-radar-blip"><i class="ti ti-wifi"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="monitor-grid">
+                        <!-- Left Side: Live Feed & Inputs -->
+                        <div class="card monitor-card">
+                            <div class="card-header">
+                                <h3><span class="header-icon">📷</span> Active Surveillance Monitor</h3>
+                                <div class="feed-tabs">
+                                    <button class="feed-tab active" id="tabUpload">File Upload</button>
+                                    <button class="feed-tab" id="tabSimulate">Live Simulator</button>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <!-- File Upload View -->
+                                <div id="uploadFeedContainer" class="feed-container">
+                                    <div class="upload-drop-zone" id="dropZone">
+                                        <input type="file" id="fileInput" accept="image/*,video/*"
+                                            class="file-input-hidden">
+                                        <div class="drop-zone-content">
+                                            <span class="upload-icon">📤</span>
+                                            <h4>Drag & Drop File Here</h4>
+                                            <p class="text-muted">Supports JPG, PNG, MP4 (Max 50MB)</p>
+                                            <button class="btn btn-primary" id="browseBtn">Browse Files</button>
+                                        </div>
+                                    </div>
+                                    <div class="preview-area hidden" id="previewArea">
+                                        <img id="imagePreview" src="" alt="Source preview"
+                                            class="source-preview hidden">
+                                        <video id="videoPreview" controls class="source-preview hidden"></video>
+                                        <div class="preview-overlay">
+                                            <span class="overlay-tag">SOURCE MEDIA</span>
+                                            <button id="clearFileBtn" class="btn btn-secondary btn-sm">Change
+                                                File</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Live Simulation View — 4 Connected Cameras -->
+                                <div id="simulateFeedContainer" class="simulate-panel hidden">
+                                    <div class="simulate-panel-inner">
+                                        <div class="camera-grid-header">
+                                            <span class="camera-grid-title"><i class="ti ti-video"></i> Multi-Camera Surveillance Grid</span>
+                                            <span id="camerasConnectedBadge" class="cameras-connected-badge">
+                                                <i class="ti ti-wifi"></i> 4/4 CAMERAS CONNECTED
+                                            </span>
+                                            <span id="simulatorTimestamp" class="camera-grid-time">2026-06-15 18:13:13</span>
+                                        </div>
+                                        <div class="camera-grid">
+                                            <div class="camera-feed" id="cameraFeedNorth" data-sector="north">
+                                                <canvas id="camCanvasNorth" width="320" height="240"></canvas>
+                                                <div class="scanner-line"></div>
+                                                <div class="cam-feed-overlay">
+                                                    <span class="cam-name">CAM_02 · NORTH</span>
+                                                    <span class="cam-status-badge connected" id="camStatusNorth"><i class="ti ti-wifi"></i> LIVE</span>
+                                                </div>
+                                            </div>
+                                            <div class="camera-feed" id="cameraFeedEast" data-sector="east">
+                                                <canvas id="camCanvasEast" width="320" height="240"></canvas>
+                                                <div class="scanner-line"></div>
+                                                <div class="cam-feed-overlay">
+                                                    <span class="cam-name">CAM_03 · EAST</span>
+                                                    <span class="cam-status-badge connected" id="camStatusEast"><i class="ti ti-wifi"></i> LIVE</span>
+                                                </div>
+                                            </div>
+                                            <div class="camera-feed" id="cameraFeedWest" data-sector="west">
+                                                <canvas id="camCanvasWest" width="320" height="240"></canvas>
+                                                <div class="scanner-line"></div>
+                                                <div class="cam-feed-overlay">
+                                                    <span class="cam-name">CAM_01 · WEST</span>
+                                                    <span class="cam-status-badge connected" id="camStatusWest"><i class="ti ti-wifi"></i> LIVE</span>
+                                                </div>
+                                            </div>
+                                            <div class="camera-feed" id="cameraFeedSouth" data-sector="south">
+                                                <canvas id="camCanvasSouth" width="320" height="240"></canvas>
+                                                <div class="scanner-line"></div>
+                                                <div class="cam-feed-overlay">
+                                                    <span class="cam-name">CAM_04 · SOUTH</span>
+                                                    <span class="cam-status-badge connected" id="camStatusSouth"><i class="ti ti-wifi"></i> LIVE</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sim-status-bar">
+                                            <span class="legend-safe"><i class="ti ti-shield-check"></i> Safe Zone</span>
+                                            <span class="legend-border"><i class="ti ti-border-outer"></i> Perimeter Border</span>
+                                            <span id="simZoneStatus" class="legend-status">All clear</span>
+                                        </div>
+                                    </div>
+                                    <div class="simulator-controls">
+                                        <button class="btn btn-danger" id="btnSimulateTiger">🚨 Spawn Tiger</button>
+                                        <button class="btn btn-warning" id="btnSimulateElephant">⚠️ Spawn Elephant</button>
+                                        <button class="btn btn-success" id="btnSimulateCattle">🐾 Spawn Cattle</button>
+                                        <button class="btn btn-accent" id="btnSimulateMonkey">🐒 Spawn Monkey</button>
+                                        <button class="btn btn-warning" id="btnSimulateRhinoceros">🦏 Spawn Rhino</button>
+                                        <button class="btn btn-danger" id="btnSimulateWolf">🚨 Spawn Wolf</button>
+                                        <button class="btn btn-secondary" id="btnSimulateClear">Clear All</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Side: AI Analytics & Parameters -->
+                        <div class="card control-card">
+                            <div class="card-header">
+                                <h3><span class="header-icon">⚙️</span> Control & Output Console</h3>
+                            </div>
+                            <div class="card-body">
+                                <!-- Model Settings -->
+                                <div class="setting-group">
+                                    <label for="confRange">Confidence Threshold: <span id="confVal">25%</span></label>
+                                    <input type="range" id="confRange" min="10" max="95" value="25" class="slider">
+                                    <small class="text-muted">Adjust to filter out low-confidence model
+                                        detections.</small>
+                                </div>
+
+                                <!-- Action Section -->
+                                <div class="action-buttons-container">
+                                    <button class="btn btn-accent btn-large" id="analyzeBtn" disabled>
+                                        ⚡ RUN DETECT INFERENCE
+                                    </button>
+                                </div>
+
+                                <!-- Output Visualizer -->
+                                <div class="output-visualizer-section">
+                                    <h4>AI Inference Result</h4>
+                                    <div class="output-display-container">
+                                        <div id="outputPlaceholder" class="output-placeholder">
+                                            <div class="placeholder-content">
+                                                <span>🧠</span>
+                                                <p>Inference output will be displayed here</p>
+                                            </div>
+                                        </div>
+                                        <div id="outputMediaWrapper" class="output-media-wrapper hidden">
+                                            <img id="outputImage" src="" alt="Detection result"
+                                                class="output-media hidden">
+                                            <video id="outputVideo" controls class="output-media hidden"></video>
+                                            <div class="inference-stats" id="inferenceStats">
+                                                <span>Time: <strong id="valInfTime">--</strong></span> |
+                                                <span>Detections: <strong id="valInfCount">0</strong></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Detections List -->
+                                <div class="detections-results-list">
+                                    <h4>Object Class Inventory</h4>
+                                    <ul id="detectionsList" class="class-list">
+                                        <li class="empty-list-msg">No detections registered yet.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Ranger Dispatch Logs -->
+                                <div class="ranger-dispatch-section">
+                                    <h4>Ranger Dispatch Center</h4>
+                                    <div class="dispatch-feed-container">
+                                        <ul id="dispatchList" class="dispatch-list">
+                                            <li class="empty-list-msg">No dispatches registered.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sample Images Deck -->
+                    <div class="card deck-card">
+                        <div class="card-header">
+                            <h3><span class="header-icon">📂</span> Quick Test Deck (Local Samples)</h3>
+                            <small class="text-muted">Run animal intrusion models instantly using default repository
+                                images</small>
+                        </div>
+                        <div class="card-body">
+                            <div class="deck-grid">
+                                <div class="deck-item" id="sampleCattle">
+                                    <div class="deck-thumbnail-wrapper">
+                                        <img src="/Images/pred_cattle.jpg" alt="Cattle sample">
+                                    </div>
+                                    <div class="deck-info">
+                                        <h5>Cattle Crossing</h5>
+                                        <small class="risk-safe">Expected: SAFE (Cattle)</small>
+                                    </div>
+                                </div>
+                                <div class="deck-item" id="sampleElephant">
+                                    <div class="deck-thumbnail-wrapper">
+                                        <img src="/Images/pred_elephant.png" alt="Elephant sample">
+                                    </div>
+                                    <div class="deck-info">
+                                        <h5>Elephant Herd</h5>
+                                        <small class="risk-warning">Expected: WARNING (Elephant)</small>
+                                    </div>
+                                </div>
+                                <div class="deck-item" id="sampleMonkey">
+                                    <div class="deck-thumbnail-wrapper">
+                                        <img src="/Images/pred_monkey.jpeg" alt="Monkey sample">
+                                    </div>
+                                    <div class="deck-info">
+                                        <h5>Monkey Alert</h5>
+                                        <small class="risk-safe">Expected: SAFE (Monkey)</small>
+                                    </div>
+                                </div>
+                                <div class="deck-item" id="sampleRhinoceros">
+                                    <div class="deck-thumbnail-wrapper">
+                                        <img src="/Images/pred_rhinoceros.jpg" alt="Rhinoceros sample">
+                                    </div>
+                                    <div class="deck-info">
+                                        <h5>Rhino Intrusion</h5>
+                                        <small class="risk-warning">Expected: WARNING (Rhinoceros)</small>
+                                    </div>
+                                </div>
+                                <div class="deck-item" id="sampleWolf">
+                                    <div class="deck-thumbnail-wrapper">
+                                        <img src="/Images/pred_wolf.jpg" alt="Wolf sample">
+                                    </div>
+                                    <div class="deck-info">
+                                        <h5>Wolf Encounter</h5>
+                                        <small class="risk-critical">Expected: CRITICAL (Wolf)</small>
+                                    </div>
+                                </div>
+                                <div class="deck-item" id="sampleVideo">
+                                    <div class="deck-thumbnail-wrapper video-wrapper">
+                                        <video src="/Video/Elephant_pred.mp4" muted loop></video>
+                                        <span class="video-play-indicator">▶</span>
+                                    </div>
+                                    <div class="deck-info">
+                                        <h5>Surveillance Clip</h5>
+                                        <small class="risk-warning">Expected: WARNING (Elephant)</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ANALYTICS SECTION -->
+                <section id="analyticsSection" class="workspace-section">
+                    <!-- Metrics Cards Grid -->
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <span class="metric-icon">🚨</span>
+                            <div class="metric-details">
+                                <h3 id="statTotalIntrusions">0</h3>
+                                <p class="text-muted">Total Intrusions</p>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-icon crimson">☠️</span>
+                            <div class="metric-details">
+                                <h3 id="statCriticalAlerts" class="crimson">0</h3>
+                                <p class="text-muted">Critical Threats</p>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-icon amber">⚠️</span>
+                            <div class="metric-details">
+                                <h3 id="statWarningAlerts" class="amber">0</h3>
+                                <p class="text-muted">Warning Alerts</p>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-icon green">🛡️</span>
+                            <div class="metric-details">
+                                <h3 id="statSafetyIndex" class="green">100%</h3>
+                                <p class="text-muted">Perimeter Security Index</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Charts Grid -->
+                    <div class="analytics-charts-grid">
+                        <div class="card chart-card">
+                            <div class="card-header">
+                                <h3><span class="header-icon">📊</span> Intrusion Frequency by Class</h3>
+                            </div>
+                            <div class="card-body">
+                                <div id="chartContainer" class="chart-container-visual">
+                                    <!-- Rendered dynamically by JS -->
+                                    <div class="empty-chart-msg">Log detections to view data metrics</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card chart-card">
+                            <div class="card-header">
+                                <h3><span class="header-icon">💡</span> Automated Protocol Status</h3>
+                            </div>
+                            <div class="card-body">
+                                <ul class="protocol-list">
+                                    <li>
+                                        <div class="protocol-status ok">ACTIVE</div>
+                                        <div class="protocol-desc">
+                                            <strong>SMS/Email Alerter</strong>
+                                            <p>Sends immediate reports to local forest rangers on CRITICAL threats.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="protocol-status ok">ACTIVE</div>
+                                        <div class="protocol-desc">
+                                            <strong>Audible Sound Siren</strong>
+                                            <p>Triggers local alarm beacons to deter intrusions programmatically.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="protocol-status warn">TEST MODE</div>
+                                        <div class="protocol-desc">
+                                            <strong>Floodlight Trigger</strong>
+                                            <p>Simulates smart night beacons toggling when motion/animal is found.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- LOGS SECTION -->
+                <section id="logsSection" class="workspace-section">
+                    <div class="card logs-card">
+                        <div class="card-header logs-header-flex">
+                            <h3><span class="header-icon">📋</span> Historical Intrusion Register</h3>
+                            <button id="clearHistoryBtn" class="btn btn-secondary btn-sm">Clear History Log</button>
+                        </div>
+                        <div class="card-body no-padding">
+                            <div class="table-responsive">
+                                <table class="logs-table" id="logsTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>Source File</th>
+                                            <th>Detections</th>
+                                            <th>Risk Level</th>
+                                            <th>Type</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="logsTableBody">
+                                        <tr>
+                                            <td colspan="6" class="empty-table-msg">No historical events recorded. Try
+                                                analyzing an image above!</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SETTINGS SECTION -->
+                <section id="settingsSection" class="workspace-section">
+                    <div class="settings-grid">
+
+                        <!-- Left Side: System & Admin Auth Settings -->
+                        <div class="settings-column">
+                            <div class="card settings-card">
+                                <div class="card-header">
+                                    <h3><span class="header-icon">⚙️</span> System Settings</h3>
+                                </div>
+                                <div class="card-body">
+                                    <form id="settingsForm" class="settings-form">
+                                        <div class="form-group">
+                                            <label>Alarm Audio Tone</label>
+                                            <select id="settingAlarmTone" class="form-control">
+                                                <option value="siren">🚨 Classic Siren Tone</option>
+                                                <option value="beep">⚠️ Cyber Warning Pulses</option>
+                                                <option value="radar">🛰️ Radar Alert Sweep</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Simulation Intrusion Rate</label>
+                                            <select id="settingSimRate" class="form-control">
+                                                <option value="off">Off (Manual Only)</option>
+                                                <option value="30">Every 30 seconds</option>
+                                                <option value="60">Every 1 minute</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="checkbox-label">
+                                                <input type="checkbox" id="settingAutoDismiss" checked>
+                                                Auto-dismiss SAFE intrusions after 5 seconds
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="checkbox-label">
+                                                <input type="checkbox" id="settingNotifyRangers">
+                                                Simulate Ranger Alert API Calls
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Save System Settings</button>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="card settings-card" style="margin-top: 2rem;">
+                                <div class="card-header">
+                                    <h3><span class="header-icon">🔐</span> Admin Authentication</h3>
+                                </div>
+                                <div class="card-body">
+                                    <!-- Logged Out Form -->
+                                    <div id="adminLoginFormContainer">
+                                        <form id="adminLoginForm" class="settings-form">
+                                            <div class="form-group">
+                                                <label for="adminUsername">Username</label>
+                                                <input type="text" id="adminUsername" class="form-control"
+                                                    placeholder="Enter admin username" required autocomplete="username">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="adminPassword">Password</label>
+                                                <input type="password" id="adminPassword" class="form-control"
+                                                    placeholder="Enter admin password" required autocomplete="current-password">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">⚡ Authenticate Admin</button>
+                                        </form>
+                                    </div>
+                                    <!-- Logged In Status -->
+                                    <div id="adminStatusContainer" class="hidden">
+                                        <div class="admin-logged-in-badge">
+                                            <span class="status-indicator-dot online"></span>
+                                            <span>Logged in as <strong>ADMIN</strong></span>
+                                        </div>
+                                        <p class="text-muted" style="font-size: 0.8rem; margin: 0.8rem 0;">WhatsApp and
+                                            Telegram intrusion alerts are unlocked for your profile.</p>
+                                        <button id="adminLogoutBtn" class="btn btn-secondary btn-sm">Sign Out
+                                            Admin</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Side: Alert Dispatches Config -->
+                        <div class="settings-column">
+                            <div class="card settings-card" id="adminDispatchCard">
+                                <div class="card-header">
+                                    <h3><span class="header-icon">💬</span> Admin Dispatch Integrations</h3>
+                                    <span id="dispatchAuthBadge" class="badge badge-risk-critical">LOCKED</span>
+                                </div>
+                                <div class="card-body" style="position: relative;">
+                                    <div id="dispatchLockOverlay" class="dispatch-lock-overlay">
+                                        <div class="lock-overlay-content">
+                                            <span>🔒</span>
+                                            <p>Log in as Admin to configure mobile alerts</p>
+                                        </div>
+                                    </div>
+                                    <form id="adminAlertsForm" class="settings-form disabled-state">
+                                        <!-- Telegram Settings -->
+                                        <h4 class="settings-section-title">📬 Telegram Alert Bot</h4>
+                                        <div class="form-group">
+                                            <label class="checkbox-label">
+                                                <input type="checkbox" id="telegramEnabled" disabled>
+                                                Enable Telegram Notifications
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="telegramToken">Bot API Token</label>
+                                            <input type="password" id="telegramToken" class="form-control"
+                                                placeholder="e.g. 123456789:ABCdefGhI..." disabled autocomplete="new-password">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="telegramChatId">Chat ID</label>
+                                            <input type="text" id="telegramChatId" class="form-control"
+                                                placeholder="e.g. 987654321" disabled>
+                                        </div>
+
+                                        <!-- WhatsApp Settings -->
+                                        <h4 class="settings-section-title" style="margin-top: 1.5rem;">🟢 WhatsApp
+                                            Dispatch</h4>
+                                        <div class="form-group">
+                                            <label class="checkbox-label">
+                                                <input type="checkbox" id="whatsappEnabled" disabled>
+                                                Enable WhatsApp Notifications
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="whatsappPhone">Phone Number</label>
+                                            <input type="text" id="whatsappPhone" class="form-control"
+                                                placeholder="e.g. +1234567890 (with country code)" disabled>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="whatsappApikey">CallMeBot API Key</label>
+                                            <input type="password" id="whatsappApikey" class="form-control"
+                                                placeholder="e.g. 951473" disabled autocomplete="new-password">
+                                        </div>
+
+                                        <button type="submit" id="saveAlertsBtn" class="btn btn-primary"
+                                            style="margin-top: 1rem;" disabled>Save Alert Configurations</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for Full Size Render Viewer -->
+    <div id="mediaModal" class="modal">
+        <span class="close-modal" id="closeModalBtn">&times;</span>
+        <div class="modal-content-wrapper">
+            <img class="modal-content" id="modalImage">
+            <video class="modal-content" id="modalVideo" controls></video>
+            <div id="modalCaption" class="modal-caption"></div>
+        </div>
+    </div>
+
+    <!-- Main JavaScript App Logic -->
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
